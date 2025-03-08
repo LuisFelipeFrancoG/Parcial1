@@ -8,9 +8,9 @@ namespace PACMAN
 {
     public abstract class Personaje
     {
-        public string Nombre;
+        public string Nombre { get; set; }
 
-        public string Velocidad;
+        public string VelocidadMovimiento { get; set; }
 
         public abstract void Mover();
         public abstract string MostrarInformacion();
