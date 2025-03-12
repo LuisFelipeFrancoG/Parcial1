@@ -1,7 +1,8 @@
 using System;
 using System.Collections.Generic;
 
-namespace PacmanGame
+namespace PacmanGame.Pacman
+
 {
     // Menú de opciones para gestionar el movimiento de Pacman y de los fantasmas.
     public class MenuPacman

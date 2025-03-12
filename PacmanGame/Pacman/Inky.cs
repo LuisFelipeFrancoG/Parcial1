@@ -1,6 +1,7 @@
 using System;
 
-namespace PacmanGame
+namespace PacmanGame.Pacman
+
 {
     // Clase concreta para el fantasma Inky
     public class Inky : Personaje

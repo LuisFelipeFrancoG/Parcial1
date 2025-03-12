@@ -1,6 +1,6 @@
 using System;
 
-namespace Banco
+namespace BancoMundial
 {
 	public class CuentaCorriente : CuentaBancaria, IAuditable
 	{
