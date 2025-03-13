@@ -3,7 +3,6 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-
 using System;
 
 namespace PacmanGame
@@ -14,7 +13,7 @@ namespace PacmanGame
 
         public Pacman(string nombre, int velocidad) : base(nombre, velocidad)
         {
-            direccionActual = Direccion.Derecha; // Por defecto, Pacman inicia moviéndose a la derecha
+            direccionActual = Direccion.Derecha; 
         }
 
         public override void Mover()
